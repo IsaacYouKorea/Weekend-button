@@ -1,0 +1,35 @@
+//Color Code
+@Red:#FF0000;
+@Green:#00FF00;
+@Blue:#0000FF;
+@Orange:#FFA500;
+@Yellow:#FFFF00;
+@Cyan:#00FFFF;
+@Black:#000000;
+@White:#FFFFFF;
+
+.button{
+
+	.mixin (@color) {
+	 	background-color: @color;
+	}
+
+	//배경 색이 어두우면(50%) 글자색을 흰색, 밝으면 검은색
+	.mixin (@color) when (lightness(@color) < 50%) {
+	 	color: white;
+	}
+
+	.mixin (@color) when (lightness(@color) >= 50%) {
+	 	color: black;
+	}
+
+
+	.red{.mixin(@Red);}
+	.green{.mixin(@Green);}
+	.blue{.mixin(@Blue);}
+	.orange{.mixin(@Orange);}
+	.yellow{.mixin(@Yellow);}
+	.cyan{.mixin(@Cyan);}
+	.black{.mixin(@Black)}
+
+}
