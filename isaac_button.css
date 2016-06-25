@@ -1,28 +1,188 @@
-.button .red {
+.button {
+  width: 200px;
+  height: 50px;
+}
+.button.red {
   background-color: #ff0000;
-  color: black;
 }
-.button .green {
+.button.red:disabled,
+.button.red[disabled=disabled],
+.button.red.disabled {
+  background-color: #c2a3a3;
+}
+.button.red.grad {
+  background: -webkit-linear-gradient(#ff0000, #ffcccc);
+  /* For Safari 5.1 to 6.0 */
+
+  background: -o-linear-gradient(#ff0000, #ffcccc);
+  /* For Opera 11.1 to 12.0 */
+
+  background: -moz-linear-gradient(#ff0000, #ffcccc);
+  /* For Firefox 3.6 to 15 */
+
+  background: linear-gradient(#ff0000, #ffcccc);
+  /* Standard syntax */
+
+}
+.button.green {
   background-color: #00ff00;
-  color: black;
 }
-.button .blue {
+.button.green:disabled,
+.button.green[disabled=disabled],
+.button.green.disabled {
+  background-color: #a3c2a3;
+}
+.button.green.grad {
+  background: -webkit-linear-gradient(#00ff00, #ccffcc);
+  /* For Safari 5.1 to 6.0 */
+
+  background: -o-linear-gradient(#00ff00, #ccffcc);
+  /* For Opera 11.1 to 12.0 */
+
+  background: -moz-linear-gradient(#00ff00, #ccffcc);
+  /* For Firefox 3.6 to 15 */
+
+  background: linear-gradient(#00ff00, #ccffcc);
+  /* Standard syntax */
+
+}
+.button.blue {
   background-color: #0000ff;
-  color: black;
 }
-.button .orange {
+.button.blue:disabled,
+.button.blue[disabled=disabled],
+.button.blue.disabled {
+  background-color: #a3a3c2;
+}
+.button.blue.grad {
+  background: -webkit-linear-gradient(#0000ff, #ccccff);
+  /* For Safari 5.1 to 6.0 */
+
+  background: -o-linear-gradient(#0000ff, #ccccff);
+  /* For Opera 11.1 to 12.0 */
+
+  background: -moz-linear-gradient(#0000ff, #ccccff);
+  /* For Firefox 3.6 to 15 */
+
+  background: linear-gradient(#0000ff, #ccccff);
+  /* Standard syntax */
+
+}
+.button.orange {
   background-color: #ffa500;
-  color: black;
 }
-.button .yellow {
+.button.orange:disabled,
+.button.orange[disabled=disabled],
+.button.orange.disabled {
+  background-color: #c2b7a3;
+}
+.button.orange.grad {
+  background: -webkit-linear-gradient(#ffa500, #ffedcc);
+  /* For Safari 5.1 to 6.0 */
+
+  background: -o-linear-gradient(#ffa500, #ffedcc);
+  /* For Opera 11.1 to 12.0 */
+
+  background: -moz-linear-gradient(#ffa500, #ffedcc);
+  /* For Firefox 3.6 to 15 */
+
+  background: linear-gradient(#ffa500, #ffedcc);
+  /* Standard syntax */
+
+}
+.button.yellow {
   background-color: #ffff00;
-  color: black;
 }
-.button .cyan {
+.button.yellow:disabled,
+.button.yellow[disabled=disabled],
+.button.yellow.disabled {
+  background-color: #c2c2a3;
+}
+.button.yellow.grad {
+  background: -webkit-linear-gradient(#ffff00, #ffffcc);
+  /* For Safari 5.1 to 6.0 */
+
+  background: -o-linear-gradient(#ffff00, #ffffcc);
+  /* For Opera 11.1 to 12.0 */
+
+  background: -moz-linear-gradient(#ffff00, #ffffcc);
+  /* For Firefox 3.6 to 15 */
+
+  background: linear-gradient(#ffff00, #ffffcc);
+  /* Standard syntax */
+
+}
+.button.cyan {
   background-color: #00ffff;
-  color: black;
 }
-.button .black {
+.button.cyan:disabled,
+.button.cyan[disabled=disabled],
+.button.cyan.disabled {
+  background-color: #a3c2c2;
+}
+.button.cyan.grad {
+  background: -webkit-linear-gradient(#00ffff, #ccffff);
+  /* For Safari 5.1 to 6.0 */
+
+  background: -o-linear-gradient(#00ffff, #ccffff);
+  /* For Opera 11.1 to 12.0 */
+
+  background: -moz-linear-gradient(#00ffff, #ccffff);
+  /* For Firefox 3.6 to 15 */
+
+  background: linear-gradient(#00ffff, #ccffff);
+  /* Standard syntax */
+
+}
+.button.black {
   background-color: #000000;
-  color: white;
+}
+.button.black:disabled,
+.button.black[disabled=disabled],
+.button.black.disabled {
+  background-color: #333333;
+}
+.button.black.grad {
+  background: -webkit-linear-gradient(#000000, #666666);
+  /* For Safari 5.1 to 6.0 */
+
+  background: -o-linear-gradient(#000000, #666666);
+  /* For Opera 11.1 to 12.0 */
+
+  background: -moz-linear-gradient(#000000, #666666);
+  /* For Firefox 3.6 to 15 */
+
+  background: linear-gradient(#000000, #666666);
+  /* Standard syntax */
+
+}
+.button.white {
+  background-color: #ffffff;
+}
+.button.white:disabled,
+.button.white[disabled=disabled],
+.button.white.disabled {
+  background-color: #ffffff;
+}
+.button.white.grad {
+  background: -webkit-linear-gradient(#ffffff, #ffffff);
+  /* For Safari 5.1 to 6.0 */
+
+  background: -o-linear-gradient(#ffffff, #ffffff);
+  /* For Opera 11.1 to 12.0 */
+
+  background: -moz-linear-gradient(#ffffff, #ffffff);
+  /* For Firefox 3.6 to 15 */
+
+  background: linear-gradient(#ffffff, #ffffff);
+  /* Standard syntax */
+
+}
+button.button {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }

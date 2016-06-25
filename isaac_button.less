@@ -10,26 +10,68 @@
 
 .button{
 
-	.mixin (@color) {
-	 	background-color: @color;
-	}
+	//크기
+		width:200px;
+		height:50px;
 
-	//배경 색이 어두우면(50%) 글자색을 흰색, 밝으면 검은색
-	.mixin (@color) when (lightness(@color) < 50%) {
-	 	color: white;
-	}
+	//배경 색상
+		.bg (@color:#FFFFFF) {
+		 	background-color: @color;
 
-	.mixin (@color) when (lightness(@color) >= 50%) {
-	 	color: black;
-	}
+		 	&:disabled, &[disabled=disabled], &.disabled{
+				background-color:lighten(desaturate(@color, 80%), 20%);
+			}
 
 
-	.red{.mixin(@Red);}
-	.green{.mixin(@Green);}
-	.blue{.mixin(@Blue);}
-	.orange{.mixin(@Orange);}
-	.yellow{.mixin(@Yellow);}
-	.cyan{.mixin(@Cyan);}
-	.black{.mixin(@Black)}
+		 	&.grad{
+		 		@gradPercent:40%;
+				background: -webkit-linear-gradient(@color, lighten(@color, @gradPercent)); /* For Safari 5.1 to 6.0 */
+			    background: -o-linear-gradient(@color, lighten(@color, @gradPercent)); /* For Opera 11.1 to 12.0 */
+			    background: -moz-linear-gradient(@color, lighten(@color, @gradPercent)); /* For Firefox 3.6 to 15 */
+			    background: linear-gradient(@color, lighten(@color, @gradPercent)); /* Standard syntax */
+			}
 
+		}
+
+
+		//배경 색이 어두우면(50%) 글자색을 흰색, 밝으면 검은색
+		.mixin (@color) when (lightness(@color) < 50%) {
+		 	color: white;
+		}
+
+		.mixin (@color) when (lightness(@color) >= 50%) {
+		 	color: black;
+		}
+
+
+		&.red{.bg(@Red);}
+		&.green{.bg(@Green);}
+		&.blue{.bg(@Blue);}
+		&.orange{.bg(@Orange);}
+		&.yellow{.bg(@Yellow);}
+		&.cyan{.bg(@Cyan);}
+		&.black{.bg(@Black);}
+		&.white{.bg(@White);}
+
+	//모서리
+
+
+	//그림자
+
+
+	//폰트
+
+
+	//정
+
+}
+
+//버튼일 경우 플랫하게 바꿔줌
+button.button{
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
