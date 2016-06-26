@@ -16,19 +16,23 @@
 
 	//배경 색상
 		.bg (@color:#FFFFFF) {
+
 		 	background-color: @color;
 
-		 	&:disabled, &[disabled=disabled], &.disabled{
-				background-color:lighten(desaturate(@color, 80%), 20%);
-			}
-
-
+		 	
+		 	//그라디언트
 		 	&.grad{
 		 		@gradPercent:40%;
 				background: -webkit-linear-gradient(@color, lighten(@color, @gradPercent)); /* For Safari 5.1 to 6.0 */
 			    background: -o-linear-gradient(@color, lighten(@color, @gradPercent)); /* For Opera 11.1 to 12.0 */
 			    background: -moz-linear-gradient(@color, lighten(@color, @gradPercent)); /* For Firefox 3.6 to 15 */
 			    background: linear-gradient(@color, lighten(@color, @gradPercent)); /* Standard syntax */
+			}
+
+
+			//비활성
+			&:disabled, &[disabled=disabled], &.disabled{
+				background-color:lighten(desaturate(@color, 80%), 20%);
 			}
 
 		}
@@ -56,13 +60,16 @@
 	//모서리
 
 
+
 	//그림자
 
 
 	//폰트
+		
 
 
-	//정
+	//정렬
+
 
 }
 

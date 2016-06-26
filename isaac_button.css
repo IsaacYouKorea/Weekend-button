@@ -5,11 +5,6 @@
 .button.red {
   background-color: #ff0000;
 }
-.button.red:disabled,
-.button.red[disabled=disabled],
-.button.red.disabled {
-  background-color: #c2a3a3;
-}
 .button.red.grad {
   background: -webkit-linear-gradient(#ff0000, #ffcccc);
   /* For Safari 5.1 to 6.0 */
@@ -24,13 +19,13 @@
   /* Standard syntax */
 
 }
+.button.red:disabled,
+.button.red[disabled=disabled],
+.button.red.disabled {
+  background-color: #c2a3a3;
+}
 .button.green {
   background-color: #00ff00;
-}
-.button.green:disabled,
-.button.green[disabled=disabled],
-.button.green.disabled {
-  background-color: #a3c2a3;
 }
 .button.green.grad {
   background: -webkit-linear-gradient(#00ff00, #ccffcc);
@@ -46,13 +41,13 @@
   /* Standard syntax */
 
 }
+.button.green:disabled,
+.button.green[disabled=disabled],
+.button.green.disabled {
+  background-color: #a3c2a3;
+}
 .button.blue {
   background-color: #0000ff;
-}
-.button.blue:disabled,
-.button.blue[disabled=disabled],
-.button.blue.disabled {
-  background-color: #a3a3c2;
 }
 .button.blue.grad {
   background: -webkit-linear-gradient(#0000ff, #ccccff);
@@ -68,13 +63,13 @@
   /* Standard syntax */
 
 }
+.button.blue:disabled,
+.button.blue[disabled=disabled],
+.button.blue.disabled {
+  background-color: #a3a3c2;
+}
 .button.orange {
   background-color: #ffa500;
-}
-.button.orange:disabled,
-.button.orange[disabled=disabled],
-.button.orange.disabled {
-  background-color: #c2b7a3;
 }
 .button.orange.grad {
   background: -webkit-linear-gradient(#ffa500, #ffedcc);
@@ -90,13 +85,13 @@
   /* Standard syntax */
 
 }
+.button.orange:disabled,
+.button.orange[disabled=disabled],
+.button.orange.disabled {
+  background-color: #c2b7a3;
+}
 .button.yellow {
   background-color: #ffff00;
-}
-.button.yellow:disabled,
-.button.yellow[disabled=disabled],
-.button.yellow.disabled {
-  background-color: #c2c2a3;
 }
 .button.yellow.grad {
   background: -webkit-linear-gradient(#ffff00, #ffffcc);
@@ -112,13 +107,13 @@
   /* Standard syntax */
 
 }
+.button.yellow:disabled,
+.button.yellow[disabled=disabled],
+.button.yellow.disabled {
+  background-color: #c2c2a3;
+}
 .button.cyan {
   background-color: #00ffff;
-}
-.button.cyan:disabled,
-.button.cyan[disabled=disabled],
-.button.cyan.disabled {
-  background-color: #a3c2c2;
 }
 .button.cyan.grad {
   background: -webkit-linear-gradient(#00ffff, #ccffff);
@@ -134,13 +129,13 @@
   /* Standard syntax */
 
 }
+.button.cyan:disabled,
+.button.cyan[disabled=disabled],
+.button.cyan.disabled {
+  background-color: #a3c2c2;
+}
 .button.black {
   background-color: #000000;
-}
-.button.black:disabled,
-.button.black[disabled=disabled],
-.button.black.disabled {
-  background-color: #333333;
 }
 .button.black.grad {
   background: -webkit-linear-gradient(#000000, #666666);
@@ -156,12 +151,12 @@
   /* Standard syntax */
 
 }
-.button.white {
-  background-color: #ffffff;
+.button.black:disabled,
+.button.black[disabled=disabled],
+.button.black.disabled {
+  background-color: #333333;
 }
-.button.white:disabled,
-.button.white[disabled=disabled],
-.button.white.disabled {
+.button.white {
   background-color: #ffffff;
 }
 .button.white.grad {
@@ -177,6 +172,11 @@
   background: linear-gradient(#ffffff, #ffffff);
   /* Standard syntax */
 
+}
+.button.white:disabled,
+.button.white[disabled=disabled],
+.button.white.disabled {
+  background-color: #ffffff;
 }
 button.button {
   border: none;
