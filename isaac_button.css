@@ -1,6 +1,12 @@
 .button {
   width: 200px;
   height: 50px;
+  /* Implementation */
+
+  /* Implementation */
+
+  /* Implementation */
+
 }
 .button.red {
   background-color: #ff0000;
@@ -23,6 +29,7 @@
 .button.red[disabled=disabled],
 .button.red.disabled {
   background-color: #c2a3a3;
+  color: #333333;
 }
 .button.green {
   background-color: #00ff00;
@@ -45,6 +52,7 @@
 .button.green[disabled=disabled],
 .button.green.disabled {
   background-color: #a3c2a3;
+  color: #333333;
 }
 .button.blue {
   background-color: #0000ff;
@@ -67,6 +75,7 @@
 .button.blue[disabled=disabled],
 .button.blue.disabled {
   background-color: #a3a3c2;
+  color: #333333;
 }
 .button.orange {
   background-color: #ffa500;
@@ -89,6 +98,7 @@
 .button.orange[disabled=disabled],
 .button.orange.disabled {
   background-color: #c2b7a3;
+  color: #333333;
 }
 .button.yellow {
   background-color: #ffff00;
@@ -111,6 +121,7 @@
 .button.yellow[disabled=disabled],
 .button.yellow.disabled {
   background-color: #c2c2a3;
+  color: #333333;
 }
 .button.cyan {
   background-color: #00ffff;
@@ -133,6 +144,7 @@
 .button.cyan[disabled=disabled],
 .button.cyan.disabled {
   background-color: #a3c2c2;
+  color: #333333;
 }
 .button.black {
   background-color: #000000;
@@ -155,6 +167,7 @@
 .button.black[disabled=disabled],
 .button.black.disabled {
   background-color: #333333;
+  color: #333333;
 }
 .button.white {
   background-color: #ffffff;
@@ -177,6 +190,17 @@
 .button.white[disabled=disabled],
 .button.white.disabled {
   background-color: #ffffff;
+  color: #333333;
+}
+.button.round {
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+.button.shadow {
+  -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
 }
 button.button {
   border: none;
