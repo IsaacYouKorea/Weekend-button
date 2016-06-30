@@ -1,0 +1,25 @@
+{
+  "name": "isaac_button",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "IsaacYou <isaac_you@naver.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/IsaacYouKorea/button",
+  "moduleType": [
+    "node"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "jquery-ui": "^1.11.4"
+  }
+}

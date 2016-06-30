@@ -97,17 +97,41 @@
 
 
 	//정렬
+		.text-align(@value:center){
+			 text-align: @value;
+		}
+
+		/* Implementation */
+		//왼쪽이나 오른쪽일시 너무 붙지 않
+		&.left{
+			padding: 0px 0px 0px 3%;
+			.text-align(left);
+		}
+		&.center{
+			.text-align(center);
+		}
+		&.right{
+			padding:0px 3% 0px 0px;
+			.text-align(right);
+		}
+
+
+	//wave
 
 
 
 
 	//공통속성
-	//선택했을 때 테두리가 안보이게
 
 	.default(){
 		.box-shadow();
+		.cetner();
+		.scale();
+
+		overflow:hidden;
 	}
 	
+	//포커스 되었을 시 파란선이 보이는데 없앰
 	&:focus {
 	   outline: 0;
 	}
@@ -125,11 +149,6 @@
 	.default();
 
 
-	//크기
-	width:200px;
-	height:50px;
-
-	
 
 }
 
