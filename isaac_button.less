@@ -10,9 +10,6 @@
 
 .button{
 
-	//크기
-		width:200px;
-		height:50px;
 
 	//배경 색상
 		.bg (@color:#FFFFFF) {
@@ -22,7 +19,7 @@
 		 	
 		 	//그라디언트
 		 	&.grad{
-		 		@gradPercent:40%;
+		 		@gradPercent:30%;
 				background: -webkit-linear-gradient(@color, lighten(@color, @gradPercent)); /* For Safari 5.1 to 6.0 */
 			    background: -o-linear-gradient(@color, lighten(@color, @gradPercent)); /* For Opera 11.1 to 12.0 */
 			    background: -moz-linear-gradient(@color, lighten(@color, @gradPercent)); /* For Firefox 3.6 to 15 */
@@ -36,6 +33,7 @@
 				background-color:lighten(desaturate(@color, 80%), 20%);
 				color:@disabledFontColor;
 			}
+
 
 		}
 
@@ -74,10 +72,18 @@
 
 
 	//그림자
-		.box-shadow (@x: 0px, @y: 3px, @blur: 5px, @alpha: 0.5) {
+		.box-shadow (@x: 0px, @y: 3px, @blur: 5px, @alpha: 0.5, @second:0s) {
+			
 			-webkit-box-shadow: @x @y @blur rgba(0, 0, 0, @alpha);
-			-moz-box-shadow: @x @y @blur rgba(0, 0, 0, @alpha);
-			box-shadow: @x @y @blur rgba(0, 0, 0, @alpha);
+		    -moz-box-shadow: @x @y @blur rgba(0, 0, 0, @alpha);
+		    box-shadow: @x @y @blur rgba(0, 0, 0, @alpha);
+		    -webkit-transition: all @second linear;
+		    -o-transition: all @second linear;
+		    -moz-transition: all @second linear;
+		    -ms-transition: all @second linear;
+		    -kthtml-transition: all @second linear;
+		    transition: all @second linear;
+
 		}
 
 		/* Implementation */
@@ -92,6 +98,38 @@
 
 	//정렬
 
+
+
+
+	//공통속성
+	//선택했을 때 테두리가 안보이게
+
+	.default(){
+		.box-shadow();
+	}
+	
+	&:focus {
+	   outline: 0;
+	}
+
+	&:hover{
+		.box-shadow(0px, 3px, 6px, 1, 0.2s);
+	}
+
+	&:active{
+		.default();
+	}
+
+
+	/*Implementation*/
+	.default();
+
+
+	//크기
+	width:200px;
+	height:50px;
+
+	
 
 }
 

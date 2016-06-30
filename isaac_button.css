@@ -1,27 +1,38 @@
 .button {
+  /* Implementation */
+
+  /* Implementation */
+
+  /* Implementation */
+
+  /*Implementation*/
+
+  -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0s linear;
+  -o-transition: all 0s linear;
+  -moz-transition: all 0s linear;
+  -ms-transition: all 0s linear;
+  -kthtml-transition: all 0s linear;
+  transition: all 0s linear;
   width: 200px;
   height: 50px;
-  /* Implementation */
-
-  /* Implementation */
-
-  /* Implementation */
-
 }
 .button.red {
   background-color: #ff0000;
 }
 .button.red.grad {
-  background: -webkit-linear-gradient(#ff0000, #ffcccc);
+  background: -webkit-linear-gradient(#ff0000, #ff9999);
   /* For Safari 5.1 to 6.0 */
 
-  background: -o-linear-gradient(#ff0000, #ffcccc);
+  background: -o-linear-gradient(#ff0000, #ff9999);
   /* For Opera 11.1 to 12.0 */
 
-  background: -moz-linear-gradient(#ff0000, #ffcccc);
+  background: -moz-linear-gradient(#ff0000, #ff9999);
   /* For Firefox 3.6 to 15 */
 
-  background: linear-gradient(#ff0000, #ffcccc);
+  background: linear-gradient(#ff0000, #ff9999);
   /* Standard syntax */
 
 }
@@ -35,16 +46,16 @@
   background-color: #00ff00;
 }
 .button.green.grad {
-  background: -webkit-linear-gradient(#00ff00, #ccffcc);
+  background: -webkit-linear-gradient(#00ff00, #99ff99);
   /* For Safari 5.1 to 6.0 */
 
-  background: -o-linear-gradient(#00ff00, #ccffcc);
+  background: -o-linear-gradient(#00ff00, #99ff99);
   /* For Opera 11.1 to 12.0 */
 
-  background: -moz-linear-gradient(#00ff00, #ccffcc);
+  background: -moz-linear-gradient(#00ff00, #99ff99);
   /* For Firefox 3.6 to 15 */
 
-  background: linear-gradient(#00ff00, #ccffcc);
+  background: linear-gradient(#00ff00, #99ff99);
   /* Standard syntax */
 
 }
@@ -58,16 +69,16 @@
   background-color: #0000ff;
 }
 .button.blue.grad {
-  background: -webkit-linear-gradient(#0000ff, #ccccff);
+  background: -webkit-linear-gradient(#0000ff, #9999ff);
   /* For Safari 5.1 to 6.0 */
 
-  background: -o-linear-gradient(#0000ff, #ccccff);
+  background: -o-linear-gradient(#0000ff, #9999ff);
   /* For Opera 11.1 to 12.0 */
 
-  background: -moz-linear-gradient(#0000ff, #ccccff);
+  background: -moz-linear-gradient(#0000ff, #9999ff);
   /* For Firefox 3.6 to 15 */
 
-  background: linear-gradient(#0000ff, #ccccff);
+  background: linear-gradient(#0000ff, #9999ff);
   /* Standard syntax */
 
 }
@@ -81,16 +92,16 @@
   background-color: #ffa500;
 }
 .button.orange.grad {
-  background: -webkit-linear-gradient(#ffa500, #ffedcc);
+  background: -webkit-linear-gradient(#ffa500, #ffdb99);
   /* For Safari 5.1 to 6.0 */
 
-  background: -o-linear-gradient(#ffa500, #ffedcc);
+  background: -o-linear-gradient(#ffa500, #ffdb99);
   /* For Opera 11.1 to 12.0 */
 
-  background: -moz-linear-gradient(#ffa500, #ffedcc);
+  background: -moz-linear-gradient(#ffa500, #ffdb99);
   /* For Firefox 3.6 to 15 */
 
-  background: linear-gradient(#ffa500, #ffedcc);
+  background: linear-gradient(#ffa500, #ffdb99);
   /* Standard syntax */
 
 }
@@ -104,16 +115,16 @@
   background-color: #ffff00;
 }
 .button.yellow.grad {
-  background: -webkit-linear-gradient(#ffff00, #ffffcc);
+  background: -webkit-linear-gradient(#ffff00, #ffff99);
   /* For Safari 5.1 to 6.0 */
 
-  background: -o-linear-gradient(#ffff00, #ffffcc);
+  background: -o-linear-gradient(#ffff00, #ffff99);
   /* For Opera 11.1 to 12.0 */
 
-  background: -moz-linear-gradient(#ffff00, #ffffcc);
+  background: -moz-linear-gradient(#ffff00, #ffff99);
   /* For Firefox 3.6 to 15 */
 
-  background: linear-gradient(#ffff00, #ffffcc);
+  background: linear-gradient(#ffff00, #ffff99);
   /* Standard syntax */
 
 }
@@ -127,16 +138,16 @@
   background-color: #00ffff;
 }
 .button.cyan.grad {
-  background: -webkit-linear-gradient(#00ffff, #ccffff);
+  background: -webkit-linear-gradient(#00ffff, #99ffff);
   /* For Safari 5.1 to 6.0 */
 
-  background: -o-linear-gradient(#00ffff, #ccffff);
+  background: -o-linear-gradient(#00ffff, #99ffff);
   /* For Opera 11.1 to 12.0 */
 
-  background: -moz-linear-gradient(#00ffff, #ccffff);
+  background: -moz-linear-gradient(#00ffff, #99ffff);
   /* For Firefox 3.6 to 15 */
 
-  background: linear-gradient(#00ffff, #ccffff);
+  background: linear-gradient(#00ffff, #99ffff);
   /* Standard syntax */
 
 }
@@ -150,16 +161,16 @@
   background-color: #000000;
 }
 .button.black.grad {
-  background: -webkit-linear-gradient(#000000, #666666);
+  background: -webkit-linear-gradient(#000000, #4d4d4d);
   /* For Safari 5.1 to 6.0 */
 
-  background: -o-linear-gradient(#000000, #666666);
+  background: -o-linear-gradient(#000000, #4d4d4d);
   /* For Opera 11.1 to 12.0 */
 
-  background: -moz-linear-gradient(#000000, #666666);
+  background: -moz-linear-gradient(#000000, #4d4d4d);
   /* For Firefox 3.6 to 15 */
 
-  background: linear-gradient(#000000, #666666);
+  background: linear-gradient(#000000, #4d4d4d);
   /* Standard syntax */
 
 }
@@ -201,6 +212,37 @@
   -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0s linear;
+  -o-transition: all 0s linear;
+  -moz-transition: all 0s linear;
+  -ms-transition: all 0s linear;
+  -kthtml-transition: all 0s linear;
+  transition: all 0s linear;
+}
+.button:focus {
+  outline: 0;
+}
+.button:hover {
+  -webkit-box-shadow: 0px 3px 6px #000000;
+  -moz-box-shadow: 0px 3px 6px #000000;
+  box-shadow: 0px 3px 6px #000000;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -kthtml-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.button:active {
+  -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0s linear;
+  -o-transition: all 0s linear;
+  -moz-transition: all 0s linear;
+  -ms-transition: all 0s linear;
+  -kthtml-transition: all 0s linear;
+  transition: all 0s linear;
 }
 button.button {
   border: none;
