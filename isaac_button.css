@@ -1,2 +1,299 @@
-.button{-webkit-box-shadow:0 3px 5px rgba(0,0,0,.5);-moz-box-shadow:0 3px 5px rgba(0,0,0,.5);box-shadow:0 3px 5px rgba(0,0,0,.5);-webkit-transition:all 0s linear;-o-transition:all 0s linear;-moz-transition:all 0s linear;-ms-transition:all 0s linear;-kthtml-transition:all 0s linear;transition:all 0s linear;width:200px;height:50px}.button.red{background-color:red}.button.red.grad{background:-webkit-linear-gradient( red, #f99);background:-o-linear-gradient( red, #f99);background:-moz-linear-gradient( red, #f99);background:linear-gradient( red, #f99)}.button.red:disabled,.button.red[disabled=disabled],.button.red.disabled{background-color:#c2a3a3;color:#333}.button.green{background-color:#0f0}.button.green.grad{background:-webkit-linear-gradient( #0f0, #9f9);background:-o-linear-gradient( #0f0, #9f9);background:-moz-linear-gradient( #0f0, #9f9);background:linear-gradient( #0f0, #9f9)}.button.green:disabled,.button.green[disabled=disabled],.button.green.disabled{background-color:#a3c2a3;color:#333}.button.blue{background-color:#00f}.button.blue.grad{background:-webkit-linear-gradient( #00f, #99f);background:-o-linear-gradient( #00f, #99f);background:-moz-linear-gradient( #00f, #99f);background:linear-gradient( #00f, #99f)}.button.blue:disabled,.button.blue[disabled=disabled],.button.blue.disabled{background-color:#a3a3c2;color:#333}.button.orange{background-color:#ffa500}.button.orange.grad{background:-webkit-linear-gradient( #ffa500, #ffdb99);background:-o-linear-gradient( #ffa500, #ffdb99);background:-moz-linear-gradient( #ffa500, #ffdb99);background:linear-gradient( #ffa500, #ffdb99)}.button.orange:disabled,.button.orange[disabled=disabled],.button.orange.disabled{background-color:#c2b7a3;color:#333}.button.yellow{background-color:#ff0}.button.yellow.grad{background:-webkit-linear-gradient( #ff0, #ff9);background:-o-linear-gradient( #ff0, #ff9);background:-moz-linear-gradient( #ff0, #ff9);background:linear-gradient( #ff0, #ff9)}.button.yellow:disabled,.button.yellow[disabled=disabled],.button.yellow.disabled{background-color:#c2c2a3;color:#333}.button.cyan{background-color:#0ff}.button.cyan.grad{background:-webkit-linear-gradient( #0ff, #9ff);background:-o-linear-gradient( #0ff, #9ff);background:-moz-linear-gradient( #0ff, #9ff);background:linear-gradient( #0ff, #9ff)}.button.cyan:disabled,.button.cyan[disabled=disabled],.button.cyan.disabled{background-color:#a3c2c2;color:#333}.button.black{background-color:#000}.button.black.grad{background:-webkit-linear-gradient( #000, #4d4d4d);background:-o-linear-gradient( #000, #4d4d4d);background:-moz-linear-gradient( #000, #4d4d4d);background:linear-gradient( #000, #4d4d4d)}.button.black:disabled,.button.black[disabled=disabled],.button.black.disabled{background-color:#333;color:#333}.button.white{background-color:#fff}.button.white.grad{background:-webkit-linear-gradient( #fff, #fff);background:-o-linear-gradient( #fff, #fff);background:-moz-linear-gradient( #fff, #fff);background:linear-gradient( #fff, #fff)}.button.white:disabled,.button.white[disabled=disabled],.button.white.disabled{background-color:#fff;color:#333}.button.round{-webkit-border-radius:5px 5px 5px 5px;-moz-border-radius:5px 5px 5px 5px;border-radius:5px 5px 5px 5px}.button.shadow{-webkit-box-shadow:0 3px 5px rgba(0,0,0,.5);-moz-box-shadow:0 3px 5px rgba(0,0,0,.5);box-shadow:0 3px 5px rgba(0,0,0,.5);-webkit-transition:all 0s linear;-o-transition:all 0s linear;-moz-transition:all 0s linear;-ms-transition:all 0s linear;-kthtml-transition:all 0s linear;transition:all 0s linear}.button.left{padding:0 0 0 3%;text-align:left}.button.center{text-align:center}.button.right{padding:0 3% 0 0;text-align:right}.button:focus{outline:0}.button:hover{-webkit-box-shadow:0 3px 6px #000;-moz-box-shadow:0 3px 6px #000;box-shadow:0 3px 6px #000;-webkit-transition:all .2s linear;-o-transition:all .2s linear;-moz-transition:all .2s linear;-ms-transition:all .2s linear;-kthtml-transition:all .2s linear;transition:all .2s linear}.button:active{-webkit-box-shadow:0 3px 5px rgba(0,0,0,.5);-moz-box-shadow:0 3px 5px rgba(0,0,0,.5);box-shadow:0 3px 5px rgba(0,0,0,.5);-webkit-transition:all 0s linear;-o-transition:all 0s linear;-moz-transition:all 0s linear;-ms-transition:all 0s linear;-kthtml-transition:all 0s linear;transition:all 0s linear}button.button{border:0;padding:15px 32px;text-align:center;text-decoration:none;display:inline-block;font-size:16px}
+.button {
+  /* Implementation */
+
+  /* Implementation */
+
+  /* Implementation */
+
+  /* Implementation */
+
+  /*Implementation*/
+
+  -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0s linear;
+  -o-transition: all 0s linear;
+  -moz-transition: all 0s linear;
+  -ms-transition: all 0s linear;
+  -kthtml-transition: all 0s linear;
+  transition: all 0s linear;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  overflow: hidden;
+}
+.button.red {
+  background-color: #ff0000;
+}
+.button.red.grad {
+  background: -webkit-linear-gradient(#ff0000, #ff9999);
+  /* For Safari 5.1 to 6.0 */
+
+  background: -o-linear-gradient(#ff0000, #ff9999);
+  /* For Opera 11.1 to 12.0 */
+
+  background: -moz-linear-gradient(#ff0000, #ff9999);
+  /* For Firefox 3.6 to 15 */
+
+  background: linear-gradient(#ff0000, #ff9999);
+  /* Standard syntax */
+
+}
+.button.red:disabled,
+.button.red[disabled=disabled],
+.button.red.disabled {
+  background-color: #c2a3a3;
+  color: #333333;
+}
+.button.green {
+  background-color: #00ff00;
+}
+.button.green.grad {
+  background: -webkit-linear-gradient(#00ff00, #99ff99);
+  /* For Safari 5.1 to 6.0 */
+
+  background: -o-linear-gradient(#00ff00, #99ff99);
+  /* For Opera 11.1 to 12.0 */
+
+  background: -moz-linear-gradient(#00ff00, #99ff99);
+  /* For Firefox 3.6 to 15 */
+
+  background: linear-gradient(#00ff00, #99ff99);
+  /* Standard syntax */
+
+}
+.button.green:disabled,
+.button.green[disabled=disabled],
+.button.green.disabled {
+  background-color: #a3c2a3;
+  color: #333333;
+}
+.button.blue {
+  background-color: #0000ff;
+}
+.button.blue.grad {
+  background: -webkit-linear-gradient(#0000ff, #9999ff);
+  /* For Safari 5.1 to 6.0 */
+
+  background: -o-linear-gradient(#0000ff, #9999ff);
+  /* For Opera 11.1 to 12.0 */
+
+  background: -moz-linear-gradient(#0000ff, #9999ff);
+  /* For Firefox 3.6 to 15 */
+
+  background: linear-gradient(#0000ff, #9999ff);
+  /* Standard syntax */
+
+}
+.button.blue:disabled,
+.button.blue[disabled=disabled],
+.button.blue.disabled {
+  background-color: #a3a3c2;
+  color: #333333;
+}
+.button.orange {
+  background-color: #ffa500;
+}
+.button.orange.grad {
+  background: -webkit-linear-gradient(#ffa500, #ffdb99);
+  /* For Safari 5.1 to 6.0 */
+
+  background: -o-linear-gradient(#ffa500, #ffdb99);
+  /* For Opera 11.1 to 12.0 */
+
+  background: -moz-linear-gradient(#ffa500, #ffdb99);
+  /* For Firefox 3.6 to 15 */
+
+  background: linear-gradient(#ffa500, #ffdb99);
+  /* Standard syntax */
+
+}
+.button.orange:disabled,
+.button.orange[disabled=disabled],
+.button.orange.disabled {
+  background-color: #c2b7a3;
+  color: #333333;
+}
+.button.yellow {
+  background-color: #ffff00;
+}
+.button.yellow.grad {
+  background: -webkit-linear-gradient(#ffff00, #ffff99);
+  /* For Safari 5.1 to 6.0 */
+
+  background: -o-linear-gradient(#ffff00, #ffff99);
+  /* For Opera 11.1 to 12.0 */
+
+  background: -moz-linear-gradient(#ffff00, #ffff99);
+  /* For Firefox 3.6 to 15 */
+
+  background: linear-gradient(#ffff00, #ffff99);
+  /* Standard syntax */
+
+}
+.button.yellow:disabled,
+.button.yellow[disabled=disabled],
+.button.yellow.disabled {
+  background-color: #c2c2a3;
+  color: #333333;
+}
+.button.cyan {
+  background-color: #00ffff;
+}
+.button.cyan.grad {
+  background: -webkit-linear-gradient(#00ffff, #99ffff);
+  /* For Safari 5.1 to 6.0 */
+
+  background: -o-linear-gradient(#00ffff, #99ffff);
+  /* For Opera 11.1 to 12.0 */
+
+  background: -moz-linear-gradient(#00ffff, #99ffff);
+  /* For Firefox 3.6 to 15 */
+
+  background: linear-gradient(#00ffff, #99ffff);
+  /* Standard syntax */
+
+}
+.button.cyan:disabled,
+.button.cyan[disabled=disabled],
+.button.cyan.disabled {
+  background-color: #a3c2c2;
+  color: #333333;
+}
+.button.black {
+  background-color: #000000;
+}
+.button.black.grad {
+  background: -webkit-linear-gradient(#000000, #4d4d4d);
+  /* For Safari 5.1 to 6.0 */
+
+  background: -o-linear-gradient(#000000, #4d4d4d);
+  /* For Opera 11.1 to 12.0 */
+
+  background: -moz-linear-gradient(#000000, #4d4d4d);
+  /* For Firefox 3.6 to 15 */
+
+  background: linear-gradient(#000000, #4d4d4d);
+  /* Standard syntax */
+
+}
+.button.black:disabled,
+.button.black[disabled=disabled],
+.button.black.disabled {
+  background-color: #333333;
+  color: #333333;
+}
+.button.white {
+  background-color: #ffffff;
+}
+.button.white.grad {
+  background: -webkit-linear-gradient(#ffffff, #ffffff);
+  /* For Safari 5.1 to 6.0 */
+
+  background: -o-linear-gradient(#ffffff, #ffffff);
+  /* For Opera 11.1 to 12.0 */
+
+  background: -moz-linear-gradient(#ffffff, #ffffff);
+  /* For Firefox 3.6 to 15 */
+
+  background: linear-gradient(#ffffff, #ffffff);
+  /* Standard syntax */
+
+}
+.button.white:disabled,
+.button.white[disabled=disabled],
+.button.white.disabled {
+  background-color: #ffffff;
+  color: #333333;
+}
+.button.round {
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+.button.shadow {
+  -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0s linear;
+  -o-transition: all 0s linear;
+  -moz-transition: all 0s linear;
+  -ms-transition: all 0s linear;
+  -kthtml-transition: all 0s linear;
+  transition: all 0s linear;
+}
+.button.left {
+  padding: 0px 0px 0px 3%;
+  text-align: left;
+}
+.button.center {
+  text-align: center;
+}
+.button.right {
+  padding: 0px 3% 0px 0px;
+  text-align: right;
+}
+.button.waves-effect {
+  position: relative;
+}
+.button .waves-ripple {
+  position: absolute;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  margin-left: -10px;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.2);
+  transition: all 0.7s ease-out;
+  transition-property: opacity, -webkit-transform;
+  transition-property: transform, opacity;
+  transition-property: transform, opacity, -webkit-transform;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+.button .waves-ripple.big {
+  -webkit-transform: scale(15);
+  transform: scale(15);
+  opacity: 1;
+}
+.button:focus {
+  outline: 0;
+}
+.button:hover {
+  -webkit-box-shadow: 0px 3px 6px #000000;
+  -moz-box-shadow: 0px 3px 6px #000000;
+  box-shadow: 0px 3px 6px #000000;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -kthtml-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.button:active {
+  -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0s linear;
+  -o-transition: all 0s linear;
+  -moz-transition: all 0s linear;
+  -ms-transition: all 0s linear;
+  -kthtml-transition: all 0s linear;
+  transition: all 0s linear;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  overflow: hidden;
+}
+button.button {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
 /* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
