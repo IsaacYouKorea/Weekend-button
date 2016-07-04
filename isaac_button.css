@@ -246,16 +246,17 @@
   margin-left: -10px;
   opacity: 0;
   background: rgba(0, 0, 0, 0.2);
-  transition: all 0.7s ease-out;
+  transition: all 0.2s ease-out;
   transition-property: opacity, -webkit-transform;
   transition-property: transform, opacity;
   transition-property: transform, opacity, -webkit-transform;
   -webkit-transform: scale(0);
   transform: scale(0);
+  pointer-events: none;
 }
 .button .waves-ripple.big {
-  -webkit-transform: scale(15);
-  transform: scale(15);
+  -webkit-transform: scale(20);
+  transform: scale(20);
   opacity: 1;
 }
 .button:focus {
@@ -295,5 +296,3 @@ button.button {
   display: inline-block;
   font-size: 16px;
 }
-
-/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */

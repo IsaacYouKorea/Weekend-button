@@ -32,22 +32,22 @@ $(document).ready(function(){
 
          //다운을 오래 하고 있을 경우 
          $(self).mouseup(function(_event){
-            console.log
+           
             endTime = new Date();
-            console.log(endTime - startTime);
+            
+            var elapsedTime = (endTime - startTime);
 
             var ripple = $(_event.currentTarget).find('.waves-ripple')[0];
-            $(ripple).remove();
-         });
+             
+            if(elapsedTime < 200){
+               console.log(200 - elapsedTime);
+               $(ripple).delay(200 - elapsedTime).remove();
+            }
 
-         //다운을 짧게 유지한 경우
-          $(self).click(function(_event){
-
-            endTime = new Date();
-            console.log(endTime-startTime);
-            var ripple = $(_event.currentTarget).find('.waves-ripple')[0];
-            $(ripple).delay(600).remove();
-
+            else {
+               $(ripple).remove();
+            }
+           
          });
 
 
